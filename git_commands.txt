@@ -1,0 +1,16 @@
+Step 6: Command Documentation 
+1.git add .
+This command stages all new, modified, and deleted files in your current project directory, except files ignored by .gitignore. 
+2.git commit -m ""
+Creates a new commit with a message describing the changes made to the repository. The message should be written inside the quotation marks. 
+3. git branch main - Creates a new local Git branch named main pointing to your current commit (HEAD), without switching to it 
+4. git switch main - Switches your current working branch to the main branch and updates your working directory files to match it. 
+5. git merge feature - Merges the changes from the feature branch into the currently active branch.
+6. git log - Displays a chronological list of commits for the current branch, showing commit hashes, author details, dates, and messages. 
+7.git branch - Lists all branches in the repository.
+8. git switch feature - Switches the current working branch to the feature branch
+9. git log --oneline - Displays the commit history in a compact, one-line format.
+10. git reset --soft HEAD~1 - Undo the most recent commit while keeping its changes staged.
+11. git remote -v - Lists all remote repositories currently connected to your local repository, displaying their short names and URLs for both fetching and pushing. 
+12. git push - Uploads your local branch commits and changes to a remote repository.
+13. git status - Displays the state of your working directory and staging area, showing which files are modified, staged for commit, or untracked.
